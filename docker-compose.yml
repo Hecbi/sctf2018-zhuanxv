@@ -1,0 +1,7 @@
+version: '2'
+services:
+ struts2:
+   container_name: "sctf_hql"
+   build: .
+   ports:
+    - "9032:8080"
